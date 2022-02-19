@@ -17,7 +17,7 @@ function computerPlay(){
 
 
 function game(){
-  for(let i=0; i<=5;i++){
+  for(let i=0; i<5;i++){
 
     let playerSelection = playerPlay().toLowerCase();
     let computerSelection = computerPlay().toLowerCase();
